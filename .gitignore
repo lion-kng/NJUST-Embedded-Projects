@@ -1,0 +1,46 @@
+# Keil MDK-ARM
+*.uvguix.*
+*.bak
+*.dep
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+*.htm
+*.lnp
+*.sct
+*.iex
+*.__i
+*.scvd
+*.sfr
+*.srec
+*.hex
+*.bin
+*.elf
+
+# Build directories
+*/MDK-ARM/DebugConfig/
+*/MDK-ARM/RTE/
+*/MDK-ARM/Objects/
+*/MDK-ARM/Listings/
+*/MDK-ARM/*.uvoptx
+*/MDK-ARM/*.uvguix
+
+# EWARM
+*/EWARM/Debug/
+*/EWARM/Release/
+*/EWARM/settings/
+*.ewt
+*.ewd
+
+# System files
+Thumbs.db
+.DS_Store
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
